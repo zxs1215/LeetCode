@@ -22,4 +22,7 @@ class Solution(object):
         index1 = start[0]+1
         index2 = end[0]+1
         return [index1,index2] if index1<index2 else [index2,index1]
-        
+
+
+s = Solution()
+print s.twoSum([1,3,4,8],7)

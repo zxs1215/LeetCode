@@ -20,18 +20,18 @@ Solution List
 189 `Rotate Array`__
 190 `Reverse Bits`__
 191 `Number of 1 Bits`__
-19 `Remove Nth Node From End of List`__
-1 `Two Sum`__
+19  `Remove Nth Node From End of List`__
+1   `Two Sum`__
 208 `implement trie`__
 217 `Contains Duplicate`__
 232 `Implement Queue using Stacks`__
 242 `Valid Anagram`__
 263 `Ugly Number`__
 292 `Nim Game`__
-2 `Add Two Numbers`__
-3 `Longest Substring Without Repeating Characters`__
-4 `Median of Two Sorted Arrays`__
-94 `Binary Tree Inorder Traversal`__
+2   `Add Two Numbers`__
+3   `Longest Substring Without Repeating Characters`__
+4   `Median of Two Sorted Arrays`__
+94  `Binary Tree Inorder Traversal`__
 === ================================================================
 
 .. __: 100_Same_Tree.py

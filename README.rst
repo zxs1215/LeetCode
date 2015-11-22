@@ -13,6 +13,7 @@ Solution List
 2   `Add Two Numbers`__
 3   `Longest Substring Without Repeating Characters`__
 4   `Median of Two Sorted Arrays`__
+7   `Reverse Integer`__
 19  `Remove Nth Node From End of List`__
 94  `Binary Tree Inorder Traversal`__
 100 `Same Tree`__
@@ -38,6 +39,7 @@ Solution List
 .. __: 2_Add_Two_Numbers.py
 .. __: 3_Longest_Substring_Without_Repeating_Characters.py
 .. __: 4_Median_of_Two_Sorted_Arrays.py
+.. __: 7_Reverse_Integer.py
 .. __: 19_Remove_Nth_Node_From_End_of_List.py
 .. __: 94_Binary_Tree_Inorder_Traversal.py
 .. __: 100_Same_Tree.py

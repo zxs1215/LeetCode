@@ -24,16 +24,7 @@ class Trie(object):
         :type word: str
         :rtype: void
         """
-        check = self.root
-        for ch in word:
-            ne = check.next(ch)
-            if ne != None:
-                check = ne
-            else:
-                node = TrieNode()
-                node.val = ch
-                check.children.append(node)
-                check = node
+        check = self.check_it(word,True)
         check.has_word = True
 
     def search(self, word):
@@ -42,13 +33,8 @@ class Trie(object):
         :type word: str
         :rtype: bool
         """
-        check = self.root
-        for ch in word:
-            ne = check.next(ch)
-            if ne == None:
-                return False
-            check = ne
-        return check.has_word   
+        check = self.check_it(word)
+        return  check != None and  check.has_word  
         
 
     def startsWith(self, prefix):
@@ -58,10 +44,18 @@ class Trie(object):
         :type prefix: str
         :rtype: bool
         """
+        return self.check_it(prefix) != None
+        
+    def check_it(self, word, add = False):
         check = self.root
-        for ch in prefix:
+        for ch in word:
             node = check.next(ch)
             if node == None:
-                return False
+                if add:
+                    node = TrieNode()
+                    node.val = ch
+                    check.children.append(node)
+                else:
+                    return None
             check = node
-        return True
+        return check

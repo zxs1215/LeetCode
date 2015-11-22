@@ -33,6 +33,7 @@ Solution List
 263 `Ugly Number`__
 292 `Nim Game`__
 === ================================================================
+
 .. __: 1_Two_Sum.py
 .. __: 2_Add_Two_Numbers.py
 .. __: 3_Longest_Substring_Without_Repeating_Characters.py

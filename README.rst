@@ -14,6 +14,7 @@ Solution List
 3   `Longest Substring Without Repeating Characters`__
 4   `Median of Two Sorted Arrays`__
 7   `Reverse Integer`__
+8   `String to Integer`__
 13  `Roman to Integer`__
 19  `Remove Nth Node From End of List`__
 94  `Binary Tree Inorder Traversal`__
@@ -41,6 +42,7 @@ Solution List
 .. __: 3_Longest_Substring_Without_Repeating_Characters.py
 .. __: 4_Median_of_Two_Sorted_Arrays.py
 .. __: 7_Reverse_Integer.py
+.. __: 8_String_to_Integer.py
 .. __: 13_Roman_to_Integer.py
 .. __: 19_Remove_Nth_Node_From_End_of_List.py
 .. __: 94_Binary_Tree_Inorder_Traversal.py
